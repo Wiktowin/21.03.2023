@@ -3,11 +3,24 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
+a = 7
+b = a
+a = 8
+
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
+def func (num) :
+    print("num1", num)
+    num = 9
+    print("num2", num)
+
+func(a)
+
+print("a:", a)
+print("b:", b)
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
